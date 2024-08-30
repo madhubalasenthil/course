@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+nav h2 {
+    font-size: 1.1rem;
+}
+nav p {
+    font-size: 0.7rem;
+}
+.content {
+    width: 100%;
+}
+.row-head {
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    color: gray;
+}
+.row {
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 100%;
+    display: flex;
+}
+.row .box1 {
+    width: 20%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+.row .box1 i {
+    color: white;
+    background-color: blueviolet;
+    padding: 10px;
+    border-radius: 50%;
+}
+.row .box2 {
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+    font-size: 0.8rem;
+    height: 100px;
+    align-items: center;
+}
+.row .box3 {
+    width: 28%;
+    padding: 10px;
+    text-align: center;
+    font-size: 0.8rem;
+    height: 100px;
+    align-items: center;
+}
+.row .box4 {
+    width: 25%;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.8rem;
+    height: 100px;
+    align-items: center;
+}
